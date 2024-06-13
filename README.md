@@ -58,3 +58,22 @@
 <h3>ItemCreateSerializer</h3>
 <p>Handles creation and updating of item data.</p><hr>
 
+##Endpoints
+
+###Supplier
+<ul>
+<li><b>GET localhost:8000/api/suppliers</b>: Get list of all suppliers</li>
+<li><b>POST localhost:8000/api/suppliers</b>: Create a new supplier</li>
+<li><b>GET localhost:8000/api/suppliers/int:id</b>: Get specific supplier</li>
+<li><b>PUT localhost:8000/api/suppliers/int:id</b>: Update supplier information</li>
+</ul>
+
+###Item
+<ul>
+<li><b>GET localhost:8000/api/items</b>: Get list of all items</li>
+<li><b>POST localhost:8000/api/items</b>: Create a new item</li>
+<li><b>GET localhost:8000/api/items/int:id</b>: Get specific item</li>
+<li><b>PUT localhost:8000/api/items/int:id</b>: Update item information</li>
+<li><b>DELETE localhost:8000/api/items/int:id</b>: Delete item</li>
+</ul>
+<p><b>Please refer to <a href="https://documenter.getpostman.com/view/29653047/2sA3XPC2rZ">Postman collection of tests</a> to see examples for requests and responses</b></p>
