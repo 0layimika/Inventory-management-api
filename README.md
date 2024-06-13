@@ -58,9 +58,9 @@
 <h3>ItemCreateSerializer</h3>
 <p>Handles creation and updating of item data.</p><hr>
 
-##Endpoints
+<h2>Endpoints</h2>
 
-###Supplier
+<h3>Supplier</h3>
 <ul>
 <li><b>GET localhost:8000/api/suppliers</b>: Get list of all suppliers</li>
 <li><b>POST localhost:8000/api/suppliers</b>: Create a new supplier</li>
@@ -68,7 +68,7 @@
 <li><b>PUT localhost:8000/api/suppliers/int:id</b>: Update supplier information</li>
 </ul>
 
-###Item
+<h3>Item</h3>
 <ul>
 <li><b>GET localhost:8000/api/items</b>: Get list of all items</li>
 <li><b>POST localhost:8000/api/items</b>: Create a new item</li>
