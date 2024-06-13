@@ -11,7 +11,7 @@
 
 <h2>Setup</h2>
 <h3>Clone the repository to your local machine:</h3>
-<cite>git clone </cite><br>
+<cite>git clone https://github.com/0layimika/Inventory-management-api.git</cite><br>
 <cite>cd Inventory</cite>
 <h3>Create and Activate Virtual environment:</h3>
 <cite>python -m venv venv</cite><br>
