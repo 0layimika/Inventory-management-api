@@ -19,7 +19,7 @@ class Supplier(models.Model):
 class Item(models.Model):
     name = models.CharField(max_length=100)
     description = models.CharField(max_length=150)
-    price = models.IntegerField()
+    price = models.FloatField()
     date = models.DateTimeField(default=datetime.now)
     suppliers = models.ManyToManyField(Supplier, related_name='items')
 

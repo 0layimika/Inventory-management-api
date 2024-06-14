@@ -11,7 +11,6 @@ class SupplierSerializer(serializers.ModelSerializer):
     class Meta:
         model = Supplier
         fields = ['id', 'name', 'contact_info', 'items']
-        read_only_fields = ['items']
 
     def create(self, validated_data):
         contact_info_data = validated_data.pop('contact_info')
